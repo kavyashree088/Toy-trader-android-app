@@ -1,0 +1,461 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.toytrader"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="28"
+8-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml
+10    <!--
+11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+12         Google Maps Android API v2, but you must specify either coarse or fine
+13         location permissions for the "MyLocation" functionality.
+14    -->
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:9:5-79
+15-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:10:5-67
+16-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:10:22-64
+17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+17-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:11:5-81
+17-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:11:22-78
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:12:5-79
+18-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:12:22-76
+19    <uses-permission android:name="com.google.android.providers.gsf.permisson.READ_GSERVICES" />
+19-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:13:5-97
+19-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:13:22-94
+20    <uses-permission android:name="android.permission.CAMERA" />
+20-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:14:5-65
+20-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:14:22-62
+21    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+21-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:15:5-80
+21-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:15:22-77
+22    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+22-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:16:5-81
+22-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:16:22-78
+23
+24    <uses-feature
+24-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:26:5-28:35
+25        android:glEsVersion="0x00020000"
+25-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:27:9-41
+26        android:required="true" />
+26-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:28:9-32
+27
+28    <uses-permission android:name="android.permission.WAKE_LOCK" />
+28-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:5-68
+28-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:25:22-65
+29    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:5-110
+29-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:26:22-107
+30
+31    <application
+31-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:18:5-158:19
+32        android:allowBackup="true"
+32-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:19:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/12a6bf48d95b151f5141a87053ee8e99/core-1.3.1/AndroidManifest.xml:24:18-86
+34        android:debuggable="true"
+35        android:extractNativeLibs="false"
+36        android:icon="@mipmap/ic_launcher"
+36-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:20:9-43
+37        android:label="@string/app_name"
+37-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:21:9-41
+38        android:roundIcon="@mipmap/ic_launcher_round"
+38-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:22:9-54
+39        android:supportsRtl="true"
+39-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:23:9-35
+40        android:testOnly="true"
+41        android:theme="@style/AppTheme" >
+41-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:24:9-40
+42        <activity android:name="com.example.toytrader.admin.IssueDetailsActivity" >
+42-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:25:9-31:20
+42-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:25:19-61
+43            <intent-filter>
+43-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:26:13-30:29
+44                <action android:name=".IssueDetailsActivity" />
+44-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:27:17-64
+44-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:27:25-61
+45
+46                <category android:name="android.intent.category.DEFAULT" />
+46-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+46-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+47            </intent-filter>
+48        </activity>
+49        <activity android:name="com.example.toytrader.admin.ManageIssuesActivity" >
+49-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:32:9-38:20
+49-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:32:19-61
+50            <intent-filter>
+50-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:33:13-37:29
+51                <action android:name=".ManageIssuesActivity" />
+51-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:34:17-64
+51-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:34:25-61
+52
+53                <category android:name="android.intent.category.DEFAULT" />
+53-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+53-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+54            </intent-filter>
+55        </activity>
+56        <activity android:name="com.example.toytrader.admin.ToyDetailsActivity" >
+56-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:39:9-45:20
+56-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:39:19-59
+57            <intent-filter>
+57-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:40:13-44:29
+58                <action android:name=".ToyDetailsActivity" />
+58-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:41:17-62
+58-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:41:25-59
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+60-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+61            </intent-filter>
+62        </activity>
+63        <activity android:name="com.example.toytrader.admin.ManageToysActivity" >
+63-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:46:9-52:20
+63-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:46:19-59
+64            <intent-filter>
+64-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:47:13-51:29
+65                <action android:name=".ManageToysActivity" />
+65-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:48:17-62
+65-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:48:25-59
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+67-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+68            </intent-filter>
+69        </activity>
+70        <activity android:name="com.example.toytrader.admin.UserDetailsActivity" >
+70-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:53:9-59:20
+70-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:53:19-60
+71            <intent-filter>
+71-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:54:13-58:29
+72                <action android:name=".UserDetailsActivity" />
+72-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:55:17-63
+72-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:55:25-60
+73
+74                <category android:name="android.intent.category.DEFAULT" />
+74-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+74-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+75            </intent-filter>
+76        </activity>
+77        <activity android:name="com.example.toytrader.admin.ManageUsersActivity" >
+77-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:60:9-66:20
+77-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:60:19-60
+78            <intent-filter>
+78-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:61:13-65:29
+79                <action android:name=".ManageUsersActivity" />
+79-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:62:17-63
+79-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:62:25-60
+80
+81                <category android:name="android.intent.category.DEFAULT" />
+81-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+81-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+82            </intent-filter>
+83        </activity>
+84        <activity android:name="com.example.toytrader.admin.AdminHomeActivity" >
+84-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:67:9-73:20
+84-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:67:19-58
+85            <intent-filter>
+85-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:68:13-72:29
+86                <action android:name=".AdminHomeActivity" />
+86-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:69:17-61
+86-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:69:25-58
+87
+88                <category android:name="android.intent.category.DEFAULT" />
+88-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+88-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+89            </intent-filter>
+90        </activity>
+91        <activity android:name="com.example.toytrader.admin.AdminLoginActivity" >
+91-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:74:9-80:20
+91-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:74:19-59
+92            <intent-filter>
+92-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:75:13-79:29
+93                <action android:name=".AdminLoginActivity" />
+93-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:76:17-62
+93-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:76:25-59
+94
+95                <category android:name="android.intent.category.DEFAULT" />
+95-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+95-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+96            </intent-filter>
+97        </activity>
+98        <!--
+99             The API key for Google Maps-based APIs is defined as a string resource.
+100             (See the file "res/values/google_maps_api.xml").
+101             Note that the API key is linked to the encryption key used to sign the APK.
+102             You need a different API key for each encryption key, including the release key that is used to
+103             sign the APK for publishing.
+104             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+105        -->
+106        <meta-data
+106-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:89:9-91:55
+107            android:name="com.google.android.geo.API_KEY"
+107-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:90:13-58
+108            android:value="@string/google_maps_key" />
+108-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:91:13-52
+109
+110        <activity android:name="com.example.toytrader.ToyLocation" >
+110-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:93:9-99:20
+110-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:93:19-46
+111            <intent-filter>
+111-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:94:13-98:29
+112                <action android:name=".ToyLocation" />
+112-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:95:17-55
+112-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:95:25-52
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+114-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+115            </intent-filter>
+116        </activity>
+117        <activity android:name="com.example.toytrader.MyOrders" />
+117-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:100:9-46
+117-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:100:19-43
+118        <activity android:name="com.example.toytrader.CartActivity" >
+118-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:101:9-107:20
+118-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:101:19-47
+119            <intent-filter>
+119-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:102:13-106:29
+120                <action android:name=".CartActivity" />
+120-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:103:17-56
+120-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:103:25-53
+121
+122                <category android:name="android.intent.category.DEFAULT" />
+122-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+122-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+123            </intent-filter>
+124        </activity>
+125        <activity android:name="com.example.toytrader.CategoryView" >
+125-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:108:9-114:20
+125-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:108:19-47
+126            <intent-filter>
+126-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:109:13-113:29
+127                <action android:name=".CategoryView" />
+127-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:110:17-56
+127-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:110:25-53
+128
+129                <category android:name="android.intent.category.DEFAULT" />
+129-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+129-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+130            </intent-filter>
+131        </activity>
+132        <activity android:name="com.example.toytrader.ProfileActivity" >
+132-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:115:9-121:20
+132-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:115:19-50
+133            <intent-filter>
+133-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:116:13-120:29
+134                <action android:name=".ProfileActivity" />
+134-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:117:17-59
+134-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:117:25-56
+135
+136                <category android:name="android.intent.category.DEFAULT" />
+136-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+136-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+137            </intent-filter>
+138        </activity>
+139        <activity android:name="com.example.toytrader.UserHomeActivity" >
+139-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:122:9-128:20
+139-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:122:19-51
+140            <intent-filter>
+140-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:123:13-127:29
+141                <action android:name=".UserHomeActivity" />
+141-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:124:17-60
+141-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:124:25-57
+142
+143                <category android:name="android.intent.category.DEFAULT" />
+143-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+143-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+144            </intent-filter>
+145        </activity>
+146        <activity android:name="com.example.toytrader.RegisterActivity" >
+146-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:129:9-135:20
+146-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:129:19-51
+147            <intent-filter>
+147-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:130:13-134:29
+148                <action android:name=".RegisterActivity" />
+148-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:131:17-60
+148-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:131:25-57
+149
+150                <category android:name="android.intent.category.DEFAULT" />
+150-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+150-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+151            </intent-filter>
+152        </activity>
+153        <activity android:name="com.example.toytrader.LoginActivity" >
+153-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:136:9-142:20
+153-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:136:19-48
+154            <intent-filter>
+154-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:137:13-141:29
+155                <action android:name=".LoginActivity" />
+155-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:138:17-57
+155-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:138:25-54
+156
+157                <category android:name="android.intent.category.DEFAULT" />
+157-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+157-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+158            </intent-filter>
+159        </activity>
+160        <activity android:name="com.example.toytrader.ToyView" >
+160-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:143:9-149:20
+160-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:143:19-42
+161            <intent-filter>
+161-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:144:13-148:29
+162                <action android:name=".ToyView" />
+162-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:145:17-51
+162-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:145:25-48
+163
+164                <category android:name="android.intent.category.DEFAULT" />
+164-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:17-76
+164-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:29:27-73
+165            </intent-filter>
+166        </activity>
+167        <activity android:name="com.example.toytrader.UploadToy" />
+167-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:150:9-47
+167-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:150:19-44
+168        <activity android:name="com.example.toytrader.MainActivity" >
+168-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:151:9-157:20
+168-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:151:19-47
+169            <intent-filter>
+169-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:152:13-156:29
+170                <action android:name="android.intent.action.MAIN" />
+170-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:153:17-69
+170-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:153:25-66
+171
+172                <category android:name="android.intent.category.LAUNCHER" />
+172-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:155:17-77
+172-->/Users/kavyashreechandrashekar/Documents/CMPE277/Project/Toy-Trader-Android-Application/ToyTrader/app/src/main/AndroidManifest.xml:155:27-74
+173            </intent-filter>
+174        </activity>
+175
+176        <service
+176-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:29:9-35:19
+177            android:name="com.google.firebase.components.ComponentDiscoveryService"
+177-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:30:13-84
+178            android:directBootAware="true"
+178-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:35:13-43
+179            android:exported="false" >
+179-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:31:13-37
+180            <meta-data
+180-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:32:13-34:85
+181                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+181-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:33:17-109
+182                android:value="com.google.firebase.components.ComponentRegistrar" />
+182-->[com.google.firebase:firebase-database:19.5.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/052344eccee02b64761ee34e4d2c6b6a/jetified-firebase-database-19.5.0/AndroidManifest.xml:34:17-82
+183            <meta-data
+183-->[com.google.firebase:firebase-firestore:21.7.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0dc73a9a572100ab7c7c01ea02337ac0/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:20:13-22:85
+184                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+184-->[com.google.firebase:firebase-firestore:21.7.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0dc73a9a572100ab7c7c01ea02337ac0/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:21:17-111
+185                android:value="com.google.firebase.components.ComponentRegistrar" />
+185-->[com.google.firebase:firebase-firestore:21.7.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0dc73a9a572100ab7c7c01ea02337ac0/jetified-firebase-firestore-21.7.1/AndroidManifest.xml:22:17-82
+186            <meta-data
+186-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:36:13-38:85
+187                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+187-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:37:17-109
+188                android:value="com.google.firebase.components.ComponentRegistrar" />
+188-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:38:17-82
+189            <meta-data
+189-->[com.google.firebase:firebase-storage:19.2.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/9430ce16ec92c809dfdf8b52ef16f948/jetified-firebase-storage-19.2.0/AndroidManifest.xml:33:13-35:85
+190                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+190-->[com.google.firebase:firebase-storage:19.2.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/9430ce16ec92c809dfdf8b52ef16f948/jetified-firebase-storage-19.2.0/AndroidManifest.xml:34:17-107
+191                android:value="com.google.firebase.components.ComponentRegistrar" />
+191-->[com.google.firebase:firebase-storage:19.2.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/9430ce16ec92c809dfdf8b52ef16f948/jetified-firebase-storage-19.2.0/AndroidManifest.xml:35:17-82
+192            <meta-data
+192-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/cad16d658ddb8c9d27e418ba1c9cf01c/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:30:13-32:85
+193                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+193-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/cad16d658ddb8c9d27e418ba1c9cf01c/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:31:17-139
+194                android:value="com.google.firebase.components.ComponentRegistrar" />
+194-->[com.google.android.gms:play-services-measurement-api:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/cad16d658ddb8c9d27e418ba1c9cf01c/jetified-play-services-measurement-api-17.6.0/AndroidManifest.xml:32:17-82
+195            <meta-data
+195-->[com.google.firebase:firebase-installations:16.3.2] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/bc863e0ba7645bc505031e44be45ac26/jetified-firebase-installations-16.3.2/AndroidManifest.xml:17:13-19:85
+196                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+196-->[com.google.firebase:firebase-installations:16.3.2] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/bc863e0ba7645bc505031e44be45ac26/jetified-firebase-installations-16.3.2/AndroidManifest.xml:18:17-127
+197                android:value="com.google.firebase.components.ComponentRegistrar" />
+197-->[com.google.firebase:firebase-installations:16.3.2] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/bc863e0ba7645bc505031e44be45ac26/jetified-firebase-installations-16.3.2/AndroidManifest.xml:19:17-82
+198        </service>
+199
+200        <activity
+200-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:24:9-31:50
+201            android:name="com.google.firebase.auth.internal.FederatedSignInActivity"
+201-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:25:13-85
+202            android:excludeFromRecents="true"
+202-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:26:13-46
+203            android:exported="true"
+203-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:27:13-36
+204            android:launchMode="singleTask"
+204-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:28:13-44
+205            android:permission="com.google.firebase.auth.api.gms.permission.LAUNCH_FEDERATED_SIGN_IN"
+205-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:29:13-102
+206            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Needs to be explicitly declared on P+ -->
+206-->[com.google.firebase:firebase-auth:19.4.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/0f458b425841e757dac703a4529e92e6/jetified-firebase-auth-19.4.0/AndroidManifest.xml:30:13-72
+207        <uses-library
+207-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:33:9-35:40
+208            android:name="org.apache.http.legacy"
+208-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:34:13-50
+209            android:required="false" />
+209-->[com.google.android.gms:play-services-maps:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/226bd09f0bb9b27d955cfa7b05f8f1c7/jetified-play-services-maps-17.0.0/AndroidManifest.xml:35:13-37
+210
+211        <receiver
+211-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:29:9-33:20
+212            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+212-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:30:13-85
+213            android:enabled="true"
+213-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:31:13-35
+214            android:exported="false" >
+214-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:32:13-37
+215        </receiver>
+216
+217        <service
+217-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:35:9-38:40
+218            android:name="com.google.android.gms.measurement.AppMeasurementService"
+218-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:36:13-84
+219            android:enabled="true"
+219-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:37:13-35
+220            android:exported="false" />
+220-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:38:13-37
+221        <service
+221-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:39:9-43:72
+222            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+222-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:40:13-87
+223            android:enabled="true"
+223-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:41:13-35
+224            android:exported="false"
+224-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:42:13-37
+225            android:permission="android.permission.BIND_JOB_SERVICE" />
+225-->[com.google.android.gms:play-services-measurement:17.6.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/32bc7f96a455dd60f6366cf80b9c2bdf/jetified-play-services-measurement-17.6.0/AndroidManifest.xml:43:13-69
+226
+227        <activity
+227-->[com.google.android.gms:play-services-base:17.1.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:23:9-26:75
+228            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+228-->[com.google.android.gms:play-services-base:17.1.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:24:13-79
+229            android:exported="false"
+229-->[com.google.android.gms:play-services-base:17.1.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:25:13-37
+230            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+230-->[com.google.android.gms:play-services-base:17.1.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/a8235920046dd925bdec8b6748f129a4/jetified-play-services-base-17.1.0/AndroidManifest.xml:26:13-72
+231
+232        <provider
+232-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:26:9-31:39
+233            android:name="com.google.firebase.provider.FirebaseInitProvider"
+233-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:27:13-77
+234            android:authorities="com.example.toytrader.firebaseinitprovider"
+234-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:28:13-72
+235            android:directBootAware="true"
+235-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:29:13-43
+236            android:exported="false"
+236-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:30:13-37
+237            android:initOrder="100" />
+237-->[com.google.firebase:firebase-common:19.3.1] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/c600c96c6db4d2cbf19587bca20cd600/jetified-firebase-common-19.3.1/AndroidManifest.xml:31:13-36
+238
+239        <meta-data
+239-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/ce53febe539132800a46a9079cdd025f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+240            android:name="com.google.android.gms.version"
+240-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/ce53febe539132800a46a9079cdd025f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+241            android:value="@integer/google_play_services_version" />
+241-->[com.google.android.gms:play-services-basement:17.0.0] /Users/kavyashreechandrashekar/.gradle/caches/transforms-2/files-2.1/ce53febe539132800a46a9079cdd025f/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+242    </application>
+243
+244</manifest>

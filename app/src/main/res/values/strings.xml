@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Toy Trader</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="address">Address</string>
+    <string name="new_user_register_instead">New User? Register Instead</string>
+    <string name="settings">Settings</string>
+    <string name="navigation_drawer_open">Open Navigation Drawer</string>
+    <string name="navigation_drawer_close">Close Navigation Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_toy_view">ToyView</string>
+    <string name="no_data_available">Toys For this Category will be added soon! Stay Tuned!</string>
+
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    <string name="title_activity_cart">CartActivity</string>
+    <string name="title_activity_toy_location">Map</string>
+</resources>

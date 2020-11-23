@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "863739595934",
+    "firebase_url": "https://toytrader-18f32.firebaseio.com",
+    "project_id": "toytrader-18f32",
+    "storage_bucket": "toytrader-18f32.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863739595934:android:f8b46e67654ed8cefa7f8f",
+        "android_client_info": {
+          "package_name": "com.example.toytrader"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863739595934-mr6pavj5elfignjtcbrdvgjkfbu6d296.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoSS9vAQHcL-ie5_YrM_lHBkgb2qgSU1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863739595934-mr6pavj5elfignjtcbrdvgjkfbu6d296.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

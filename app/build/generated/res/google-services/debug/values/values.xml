@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">863739595934-mr6pavj5elfignjtcbrdvgjkfbu6d296.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://toytrader-18f32.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">863739595934</string>
+    <string name="google_api_key" translatable="false">AIzaSyDoSS9vAQHcL-ie5_YrM_lHBkgb2qgSU1o</string>
+    <string name="google_app_id" translatable="false">1:863739595934:android:f8b46e67654ed8cefa7f8f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyDoSS9vAQHcL-ie5_YrM_lHBkgb2qgSU1o</string>
+    <string name="google_storage_bucket" translatable="false">toytrader-18f32.appspot.com</string>
+    <string name="project_id" translatable="false">toytrader-18f32</string>
+</resources>
